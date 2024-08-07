@@ -1,0 +1,60 @@
+.recent-orders {
+  background-color: #2d2f36;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #3d3f46;
+  font-weight: bold; 
+}
+
+
+tr:nth-child(even) {
+  background-color: #3d3f46; 
+}
+
+tr:nth-child(odd) {
+  background-color: #2d2f36; 
+}
+
+.profile-container {
+  display: flex;
+  align-items: center; 
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover; 
+}
+
+/* Status colors */
+.status-delivered {
+  color: #4caf50;
+}
+
+.status-pending {
+  color: #ff9800; 
+}
+
+.status-shipped {
+  color: #2196f3;
+}
+
+.status-cancelled {
+  color: #f44336;
+}

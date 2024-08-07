@@ -1,0 +1,35 @@
+
+.dashboard {
+  padding: 20px;
+  background-color: #1f1f23;
+  color: white;
+  flex: 1;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.orders-feedback {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.activity-chart {
+  flex: 2;
+}
+
+.goals {
+  flex: 1;
+}
+
+.recent-orders {
+  flex: 2;
+}
+
+.feedback {
+  flex: 1;
+}

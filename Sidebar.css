@@ -1,0 +1,30 @@
+.sidebar {
+  width: 60px;
+  background-color: #2d2f36;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.sidebar-icon {
+  margin: 15px 0;
+  font-size: 24px;
+  color: #ffffff; 
+  transition: color 0.3s, border-left 0.3s;
+  padding-left: 10px; 
+  cursor: pointer;
+}
+
+.sidebar-icon:hover {
+  color: #2196f3;
+}
+
+.apps-icon {
+  color: #2196f3; 
+  border-left: none; 
+}
+
+.sidebar-icon:not(.apps-icon):hover {
+  border-left: 4px solid #2196f3; 
+}
